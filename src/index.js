@@ -9,7 +9,7 @@ ReactDOM.render(
     <Navbar/>
     <Footer/>
     </div>
-, 
+,
 document.getElementById('root')
 );
 
