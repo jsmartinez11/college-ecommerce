@@ -3,7 +3,12 @@ import React from "react";
 function Component(){
     return (
         <div>
-            Hey, this is the component baby
+            <td>
+                <tr>About Us</tr>
+                <tr>Contact</tr>
+                <tr>Shop</tr>
+                <tr>Home</tr>
+            </td>
         </div>
     );
 }
