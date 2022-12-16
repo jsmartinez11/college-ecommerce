@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Component from './Component';
-
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 ReactDOM.render(
     <div>
-    <h1>Hello World!</h1>
-    <Component/>
+    <h1>Welcome to College Ecommerce!</h1>
+    <Navbar/>
+    <Footer/>
     </div>
 , 
 document.getElementById('root')
 );
+
