@@ -1,4 +1,5 @@
 import React from "react";
+import aboutUS from "./NavbarElements/aboutUs";
 
 function Navbar(){
     return (
