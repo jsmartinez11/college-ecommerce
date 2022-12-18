@@ -13,8 +13,8 @@ function Navbar(){
             <Logo />
             <BusinessName />
             <Home />
-            <AboutUs />
             <Shop />
+            <AboutUs />
             <Contact />
             
         </div>

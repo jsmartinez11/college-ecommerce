@@ -4,8 +4,8 @@ const customStyle = {
     color: "gray",
     fontSize: "15px",
     position: 'fixed',
-    left: '70%',
-    top: '30px'
+    left: '60%',
+    top: '10px'
 
 };
 

@@ -2,15 +2,15 @@ import React from "react";
 
 const customStyle = {
     position: 'fixed',
-    left: '5%',
-    top: '30px'
+    left: '2%',
+    top: '3px'
 
 };
 
 function Logo(){
     return(
-        <div style = {customStyle}>  
-            <img className = "logo-styling" src = "./NavbarElements/images/CCLogo.jpg" alt = "Logo"></img>
+        <div>  
+            <img style = {customStyle} src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cc.logo.circle.svg/800px-Cc.logo.circle.svg.png" alt = "Logo" height="80px" width = "80px"/>
         </div>
     );
 }
