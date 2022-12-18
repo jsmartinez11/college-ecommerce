@@ -5,7 +5,9 @@ import Footer from './Footer';
 
 ReactDOM.render(
     <div>
-    <Navbar/>
+        <div>
+            <Navbar/>
+        </div>
     <Footer/>
     </div>
 ,
