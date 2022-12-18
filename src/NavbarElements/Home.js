@@ -4,19 +4,17 @@ const customStyle = {
     color: "gray",
     fontSize: "15px",
     position: 'fixed',
-    left: '80%',
+    left: '70%',
     top: '30px'
 
 };
 
-function AboutUs(){
+function Home(){
     return(
         <div style = {customStyle}>  
-            <h2>About Us</h2>
+            <h2>Home</h2>
         </div>
     );
 }
 
-
-
-export default AboutUs;
+export default Home;

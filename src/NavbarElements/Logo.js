@@ -1,22 +1,18 @@
 import React from "react";
 
 const customStyle = {
-    color: "gray",
-    fontSize: "15px",
     position: 'fixed',
-    left: '80%',
+    left: '5%',
     top: '30px'
 
 };
 
-function AboutUs(){
+function Logo(){
     return(
         <div style = {customStyle}>  
-            <h2>About Us</h2>
+            <img className = "logo-styling" src = "./NavbarElements/images/CCLogo.jpg" alt = "Logo"></img>
         </div>
     );
 }
 
-
-
-export default AboutUs;
+export default Logo;
