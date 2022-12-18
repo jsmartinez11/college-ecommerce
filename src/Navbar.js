@@ -1,12 +1,11 @@
-import React from "react";
+import React from 'react';
+import AboutUs from './NavbarElements/AboutUs';
 
 
 function Navbar(){
     return (
         <div>
-            <aboutUs />
-            <p>Need links here</p>
-            <p>Need logo here</p>
+            <AboutUs />
         </div>
     );
 }

@@ -1,17 +1,22 @@
 import React from "react";
 
 const customStyle = {
+    color: "red",
+    fontSize: "20px",
+    position: 'fixed',
+    left: '80%',
+    top: '30px'
 
-    display: 'flex',
-    justifyContent: 'Right',
-    alignItems: 'Right',
-    height: '100vh'
 };
 
-function aboutUs(){
-    <div style = {customStyle}>  
-        <h2>About Us</h2>
-    </div>
+function AboutUs(){
+    return(
+        <div style = {customStyle}>  
+            <h2>About Us</h2>
+        </div>
+    );
 }
 
-export default aboutUs;
+
+
+export default AboutUs;
