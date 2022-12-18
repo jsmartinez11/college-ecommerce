@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 ReactDOM.render(
     <div>
-    <h1>Welcome to College Ecommerce!</h1>
+    <h1>College Ecommerce!</h1>
     <Navbar/>
     <Footer/>
     </div>
