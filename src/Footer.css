@@ -1,0 +1,47 @@
+.footer{
+    position: absolute;
+    margin: 30rem 20rem 2rem 3.5rem;
+
+  }
+  
+  .top{
+    display: flex;
+    gap: 50px;
+   margin-bottom: 50px;
+  }
+  
+  .field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align:justify;
+    font-size: 14px;
+    
+  }
+  
+  span{
+    color: grey;
+  }
+
+  .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  
+
+ 
+  
+  
+  
+  
+  
+  
+  
