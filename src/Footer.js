@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/mnv/college-ecommerce/src/Footer.css";
+import "../src/Footer.css";
 
 function Footer(){
     return (
