@@ -1,6 +1,10 @@
 import React from "react";
 import "../src/Footer.css";
 
+function getYear(){
+     return new Date().getFullYear();
+}
+
 function Footer(){
     return (
         <div className="footer">
@@ -41,7 +45,7 @@ function Footer(){
             <div className="bottom">
                 <div className="left">
                 <span className="logo">college-ecommerce</span>
-                <span className="copyright">Copyright all rights reserved</span>
+                <span className="copyright">Copyright ©️ {getYear()} all rights reserved</span>
                 </div>
                 <div className="right">
                 <img src="/Users/mnv/college-ecommerce/src/NavbarElements/images/payment.png" alt="payment"></img>
