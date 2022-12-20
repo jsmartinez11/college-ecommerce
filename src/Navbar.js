@@ -7,6 +7,7 @@ import BusinessName from './NavbarElements/BusinessName';
 import Logo from './NavbarElements/Logo';
 
 
+
 function Navbar(){
     return (
         <div>

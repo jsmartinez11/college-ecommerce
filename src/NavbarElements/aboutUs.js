@@ -1,4 +1,5 @@
 import React from "react";
+import "../Navbar.css";
 
 const customStyle = {
     color: "gray",
@@ -6,12 +7,13 @@ const customStyle = {
     position: 'fixed',
     left: '75%',
     top: '10px'
+    
 
 };
 
 function AboutUs(){
     return(
-        <div style = {customStyle}>  
+        <div style = {customStyle} className = 'background'>  
             <h2>About Us</h2>
         </div>
     );
