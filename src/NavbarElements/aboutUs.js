@@ -1,24 +1,12 @@
 import React from "react";
-import "../Navbar.css";
-
-const customStyle = {
-    color: "gray",
-    fontSize: "15px",
-    position: 'fixed',
-    left: '75%',
-    top: '10px'
-    
-
-};
+import '../Navbar.css';
 
 function AboutUs(){
     return(
-        <div style = {customStyle} className = 'background'>  
+        <div className = 'AboutUs'>  
             <h2>About Us</h2>
         </div>
     );
 }
-
-
 
 export default AboutUs;
