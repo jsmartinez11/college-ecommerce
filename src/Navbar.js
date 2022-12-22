@@ -21,43 +21,44 @@ function Navbar(){
 }
 
 const contactButton = {
-    color: "gray",
+    color: "black",
     fontSize: "15px",
-    position: 'fixed',
+    position: 'absolute',
     left: '85%',
-    top: '15px'
+    top: '20px',
+    
 };
 
 const companyButton = {
-    color: "gray",
+    color: "black",
     fontSize: "15px",
-    position: 'fixed',
+    position: 'absolute',
     left: '10%',
-    top: '15px'
+    top: '20px'
 };
 
 const homeButton = {
-    color: "gray",
+    color: "black",
     fontSize: "15px",
-    position: 'fixed',
+    position: 'absolute',
     left: '60%',
-    top: '15px'
+    top: '20px'
 };
 
 const shopButton = {
-    color: "gray",
+    color: "black",
     fontSize: "15px",
-    position: 'fixed',
+    position: 'absolute',
     left: '68%',
-    top: '15px'
+    top: '20px'
 };
 
 const aboutUsButton = {
-    color: "gray",
+    color: "black",
     fontSize: "15px",
-    position: 'fixed',
+    position: 'absolute',
     left: '75%',
-    top: '15px'
+    top: '20px'
 };
 
 export default Navbar;
